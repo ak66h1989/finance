@@ -1,7 +1,7 @@
 ##----- pe is '0.00' when pe < 0 -----
 
 from sqlite3 import *
-connLite = connect('C:\\Users\\ak66h_000\\Documents\\db\\tse.sqlite3')
+connLite = connect('C:\\Users\\user\\Documents\\db\\tse.sqlite3')
 c = connLite.cursor()
 
 import requests
@@ -12,7 +12,7 @@ import re
 import datetime
 import json
 import sys, os
-sys.path.append('C:/Users/ak66h_000/Dropbox/program/mypackage')
+sys.path.append('C:/Users/user/Dropbox/program/mypackage')
 import psycopg2
 import sqlCommand as sqlCommand
 
